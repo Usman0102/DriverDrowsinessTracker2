@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4292f4"
+    android:orientation="vertical"
+    tools:context="com.UsmanRasool.UsmanRasool.driverdrowsinesstracker.Front">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Driver Drowsiness Tracker"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#f5fffa"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:background="#c2d3ef"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:text="Make your Journey safe!"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:textColor="#4292f4"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="0sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#4292f4"
+        android:paddingLeft="10dp"
+
+
+        >
+
+        <Button
+            android:id="@+id/graphbtn"
+            android:drawableTop="@drawable/ic_013_chart_3"
+            android:background="#c2d3ef"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="       Graphs       "
+            android:textColor="#4292f4"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/userGuide"
+            android:drawableTop="@drawable/ic_manual_book"
+            android:background="#c2d3ef"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="     User Guide   "
+            android:textColor="#4292f4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        >
+
+        <Button
+            android:id="@+id/settingsbtn"
+            android:drawableTop="@drawable/ic_settings"
+            android:background="#c2d3ef"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="      Settings        "
+            android:textColor="#4292f4"
+             android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"/>
+
+
+
+        <Button
+            android:id="@+id/Ratebtn"
+            android:drawableTop="@drawable/ic_survey"
+            android:background="#c2d3ef"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="         Feedback       "
+            android:textColor="#4292f4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20sp"/>
+
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/trackingbtn"
+            android:drawableTop="@drawable/ic_play_button"
+            android:background="#c2d3ef"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="    Start Tracking     "
+            android:textColor="#4292f4"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="60dp"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

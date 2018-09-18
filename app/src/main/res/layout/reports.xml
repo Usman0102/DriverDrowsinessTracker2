@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4292f4"
+    >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="420dp"
+            android:layout_height="80dp"
+            android:text="Accuracy Reports"
+
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+
+            />
+        
+        
+        <Button
+            android:id="@+id/morningbtn"
+            android:layout_width="220dp"
+            android:layout_height="70dp"
+            android:text="Accuracy in Morning"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="80dp"
+            
+            
+            
+            />
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="Accuracy in Evening"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="80dp"
+            />
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="Accuracy in Night"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+
+            />
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="Accuracy with Glasses"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

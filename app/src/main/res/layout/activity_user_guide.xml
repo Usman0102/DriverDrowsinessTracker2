@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:text="1.Place your smartPhone on dashboard"
+    android:paddingLeft="20dp"
+    android:paddingTop="40dp"
+    android:paddingRight="20dp"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:textColor="#ffffff"
+    android:background="#4292f4"
+
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="2.Make sure front cam is focused on driver's eyes."
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#4292f4"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="3.Open DrowsinessTracker Application."
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#4292f4"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="4.Click on the Start Tracking Button."
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#4292f4"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+
+        android:text="5.Keep your phone connected to charging cable for long Journeys"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#4292f4"
+
+
+        />
+
+</LinearLayout>
+
+</LinearLayout>

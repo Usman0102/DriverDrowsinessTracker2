@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4292f4"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#4292f4"
+
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Driver Drowsiness Tracker"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#f5fffa"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/MrnBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="  This app works perfectly in day time  and accuracy lies between 97 -100 percent  "
+            android:padding="15dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+
+
+            />
+
+        <TextView
+            android:id="@+id/EvnBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text=" In night time accuracy lies between 80 - 90 percent.  "
+            android:textColor="#ffffff"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/GlassBtn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="While wearing glasses this app is 60 to 70 percent accurate "
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:padding="15dp"
+
+
+            />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
